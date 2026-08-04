@@ -3,6 +3,11 @@
 // Google Earth Engine Workshop 4 - Allen Coral Atlas
 //****************************************************//
 
+//Assignment Introduction
+
+/* This assignment focused on mapping the world’s major deep-ocean ecosystems using ETOPO1 bathymetry in Google Earth Engine. 
+I classified hadal trenches and troughs, abyssal plains, continental and island slopes, and submarine canyons using depth and seafloor slope. 
+I also added protected areas, EEZ boundaries, and hydrothermal vent locations to provide more context for interpreting the map. */
 
 var daydream_island = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Point([148.81419390782045, -20.25111907218827]),
