@@ -2,6 +2,13 @@
 // Start of module 4 - google earth engine workshop 1
 //****************************************************//
 
+// Introduction
+
+/* Workshop 1 introduced Google Earth Engine and the basics of using JavaScript for environmental analysis. 
+The workshop covered variables, lists, objects, functions, Earth Engine data types, and the difference between client-side JavaScript and server-side Earth Engine operations.
+It also introduced how to import, inspect, and visualise raster and vector datasets using map layers and custom colour palettes.*/
+
+
 //****************************************************//
 // Use two forward slashes for writing comments.
 
@@ -172,3 +179,10 @@ Map.addLayer(protected_areas) // adds layer without colours or gradients.
 
 //add colurs and name the layer:
 Map.addLayer(protected_areas, {color: 'darkgreen'}, 'Protected Areas')
+
+
+// Workshop Reflection
+
+/* This workshop helped me become more comfortable using JavaScript and navigating the Earth Engine Code Editor. 
+I found that many of the basic programming ideas were similar to R, although the syntax and way Earth Engine processes data were different. 
+Learning how to print objects, inspect datasets, and regularly run the script was especially useful for finding errors and understanding how each part of the code worked. */
